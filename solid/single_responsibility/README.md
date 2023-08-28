@@ -11,3 +11,8 @@
 - If a component has multiple reason to change, there will be more frequency of change.
 - An increase in frequency of change will only increase the chances of getting bugs.
 - We should split components when there are multiple reasons to change.
+
+### Summary
+- Ask yourself what are the possible reasons for changing this component. Each reason for changing should be a single component unless there are very closely linked reasons.
+- Aim for high conhension and loose coupling.(for lower code maintenance cost)
+- Note: Do not create a huge number of classes. Combine the components if the responsibilities can be grouped in a sensible way.
