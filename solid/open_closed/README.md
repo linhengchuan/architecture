@@ -5,4 +5,4 @@
 - New features getting added to the software component should not have to modify existing code.
 
 ### Open for extension
-- A sosftware component should be extendable to add a new feature or add a new behaviour.
+- A software component should be extendable to add a new feature or add a new behaviour.
