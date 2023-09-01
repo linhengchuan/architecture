@@ -12,7 +12,7 @@ class bird():
         pass
 
     def fly(self):
-        print("Fly!")
+        print("Bird flew away!")
 
 
 class penguine(bird):
@@ -22,9 +22,18 @@ class penguine(bird):
 
     def fly(self):
         # Unimplemented because penguine cant fly
-        print("Penguine cant fly.")
+        print("Error: Penguine cant fly. Liskov subs principle failed.")
         pass
 
 
-a = penguine()
-a.fly()
+class utils():
+    def set_fly(birds):
+        for bird in birds:
+            bird.fly()
+
+
+a = bird()
+b = bird()
+c = penguine()
+
+utils.set_fly([a, b, c])
