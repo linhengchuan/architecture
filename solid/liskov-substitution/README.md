@@ -7,3 +7,7 @@
 - LSP is failed in this case.
 
 # LSP is a more strict test than IS-A test
+
+# Solution
+
+- Create a new base class which is even more generic to be implement/inherited by the other 2 classes.
