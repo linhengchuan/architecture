@@ -10,4 +10,5 @@
 
 # Solution
 
-- Create a new base class which is even more generic to be implement/inherited by the other 2 classes.
+- Breaking the hierachy method: Create a new base class which is even more generic to be implement/inherited by the other 2 classes.
+- Tell, dont ask method: The utils class, that are operating on the class and its subtypes, should not need to ask them what are they before operating on them. The class and subtype should tell the utils information needed directly.

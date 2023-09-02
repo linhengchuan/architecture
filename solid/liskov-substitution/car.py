@@ -2,6 +2,7 @@
 Another example for LSP. RacingCar cannot inherit Car because it doesnt
 have a cabin width. Instead it has a cockpit. To adhere to LSP rule, a
 vehicle class is created as a base class for both car and racingcar.
+This is call breaking the hierachy method.
 """
 
 
