@@ -17,3 +17,4 @@
 # Inversion of control(IOC)
 
 - To keep all injections in a seperate thread so that main control flow/thread is kept isolated from injections.
+- There are libraries to help achieve such as spring framework for java
